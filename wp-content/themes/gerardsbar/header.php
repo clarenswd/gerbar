@@ -100,8 +100,6 @@
 
 			<section class="top-bar-section">
 				<!-- Right Nav Section -->
-
-
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => '' , 'menu_class'=>'nav-menu right' , 'container' => '') ); ?>
 
 			</section>
@@ -113,9 +111,9 @@
 
 	<!--contact  template-->
 	<?php
-	if (get_page_template_slug( $post->ID )  != 'page-contact.php' ):
+	$template_name = get_page_template_slug( $post->ID );
+	if ( $template_name != 'page-contact.php' && $template_name != 'page-gallery.php'    ):
 		?>
-
 			<div class="home-content">
 		<?php
 	endif;

@@ -36,7 +36,7 @@ get_header(); ?>
             ?>
             <div class="small-12 medium-6 columns menu-container">
                 <?php if( $food_menu_pdf ): ?>
-                    <a target="_blank" href="<?php echo $file['url']; ?>">
+                    <a target="_blank" href="<?php echo $food_menu_pdf; ?>">
                         <img class="small-12 columns " src="<?php echo get_template_directory_uri ();?>/img/menu-food.svg" alt="Food menu" />
                     </a>
                 <?php endif; ?>
@@ -44,7 +44,7 @@ get_header(); ?>
 
             <div class="small-12 medium-6 columns menu-container">
                 <?php if( $drink_menu_pdf ): ?>
-                    <a target="_blank" href="<?php echo $file['url']; ?>">
+                    <a target="_blank" href="<?php echo $drink_menu_pdf; ?>">
 
                         <img class="small-12 columns " src="<?php echo get_template_directory_uri ();?>/img/menu-drinks.svg" alt="Drinks menu" />
 

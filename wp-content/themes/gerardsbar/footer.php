@@ -12,9 +12,11 @@
 ?>
 
 
-	<!-- TO avoid printing "home-contact" div in contact  template-->
+	<!-- TO avoid printing "home-contact" div in contact  template and gallery-->
+
 	<?php
-		if (get_page_template_slug( $post->ID )  != 'page-contact.php' ):
+        $template_name = get_page_template_slug( $post->ID );
+		if ( $template_name  != 'page-contact.php' && $template_name != 'page-gallery.php'   ):
 	?>
 
 			</div>
@@ -22,10 +24,6 @@
 	<?php
 		endif;
 	?>
-
-
-
-
 
 <div class="push"></div>
 </div>

@@ -23,13 +23,32 @@ get_header(); ?>
 		}
 	</style>
 	<div class="medium-6">
-		<h1>About</h1>
-		<p>Introducing one of Brisbane’s best bars: Gerard’s Bar, Gerard’s Bistro’s little sister.</p>
-		<p>We invite you to make your way through the laneways of New Farm, and you’ll find us tucked away behind the hustle and bustle of James Street. We are a fairly new bar in Brisbane, offering a Spanish inspired scene with tapas, charcuterie, and beverages that will entice you all night long.</p>
-		<p>Gerard’s Bar steps back in time to offer you great food, delicious drinks, and excellent service, while you sip away the afternoon and evening with friends or family. Escape into a European - inspired setting that offers you a truly unique experience that takes you away to another time, another place.</p>
-		<p>Renowned for our Charcuterie, on display in our impressive cabinet, our award-winning head Chef, Ben Williamson, has crafted a menu that will leave your mouth watering and dying to taste our delectable meats. What’s more, our delicious selections of beverages make us one of the best cocktail serving bars in Brisbane, along with out extensive range of wines.</p>
-		<p>The best of Brisbane’s bars is stowed away, just behind James St, with the best appestisers and aperitifs on offer, just for you.</p>
-		<p>We welcome you to join us – at one of the best bars in Brisbane – from a short drink to a long, satisfying dinner with friends and family. Gerard’s Bar is open seven days from 3pm til 12am, Monday to Thursday, and from 12pm til 1am, Friday to Sunday.</p>
+
+
+
+		<?php
+		if ( have_posts() ) :
+
+
+			/* Start the Loop */
+			while ( have_posts() ) : the_post();
+
+				/*
+				 * Include the Post-Format-specific template for the content.
+				 * If you want to override this in a child theme, then include a file
+				 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+				 */
+				get_template_part( 'template-parts/content', get_post_format() );
+
+			endwhile;
+
+			the_posts_navigation();
+
+		else :
+
+			get_template_part( 'template-parts/content', 'none' );
+
+		endif; ?>
 	</div>
 
 <?php
