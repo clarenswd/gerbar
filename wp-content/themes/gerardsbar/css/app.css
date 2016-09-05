@@ -1,33 +1,11 @@
-/*
-Theme Name: gerardsbar
-Theme URI: http://underscores.me/
-Author: Underscores.me
-Author URI: http://underscores.me/
-Description: Description
-Version: 1.0.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: gerardsbar
-Tags:
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-gerardsbar is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
-*/
-
-html {
-	/*background: url(../img/bg-home.jpg) no-repeat center center fixed; */
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-color: black;
-	-webkit-font-smoothing: antialiased;
+html { 
+  /*background: url(../img/bg-home.jpg) no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+  -webkit-font-smoothing: antialiased;
 }
 
 body{
@@ -130,7 +108,7 @@ h4{
 .top-bar-section ul li > a:hover{
 	background:none;
 	background-color:none;
-	text-decoration: underline;
+	text-decoration: underline; 
 }
 
 .contain-to-grid{
@@ -145,7 +123,7 @@ h4{
 }
 
 .top-bar.expanded{
-	background: rgba(0,0,0,0.8)!important;
+	background: rgba(0,0,0,0.8)!important;	
 }
 
 ul.nav-menu{
@@ -169,7 +147,7 @@ ul.nav-menu{
 	display: none;
 }
 
-.social-icons a,
+.social-icons a, 
 .social-icons-mobile a{
 	color: white;
 	border-radius: 15px;
@@ -222,7 +200,7 @@ ul.nav-menu{
 	width: 100%;
 	max-width: 62.5rem;
 	padding: 30px;
-	background: rgba(0,0,0,0.8);
+	background: rgba(0,0,0,0.8);	
 }
 
 .home-content{
@@ -268,14 +246,14 @@ ul.nav-menu{
 .menu-container a img{
 	/*width: 70%;*/
 	/*width: 50%;*/
-	/*	color: white;
-        font-size: 20px;
-        display: inline-block;
-        width: 180px;
-        height: 180px;
-        border-radius: 90px;
-        padding-top: 16px;
-        border: 4px solid white;*/
+/*	color: white;
+	font-size: 20px;
+	display: inline-block;
+	width: 180px;
+	height: 180px;
+	border-radius: 90px;
+	padding-top: 16px;
+	border: 4px solid white;*/
 }
 
 .menu-container a i{
@@ -343,7 +321,7 @@ label.inline{
 /* map */
 #map{
 	height: 350px;
-
+	
 }
 
 
@@ -365,7 +343,7 @@ label.inline{
 		margin: 0 auto;
 		display: block;
 
-	}
+	}	
 }
 
 
@@ -377,13 +355,13 @@ label.inline{
 		display: block;
 	}
 
-	/*	.social-icons-mobile{
-            display: block;
-            position: absolute;
-            top: 130px;
-            right: 12px;
-        }
-    */
+/*	.social-icons-mobile{
+		display: block;
+		position: absolute;
+		top: 130px;
+		right: 12px;
+	}
+*/
 	.top-bar-section ul li > a{
 		font-size: 13px;
 		padding: 0 11px!important;
@@ -431,13 +409,13 @@ label.inline{
 		right: 25px;
 	}
 
-	/*	.social-icons-mobile{
-            top: 190px;
-        }
+/*	.social-icons-mobile{
+		top: 190px;
+	}
 
-    */	.contain-to-grid .top-bar{
-			  min-height: 180px!important;
-		  }
+*/	.contain-to-grid .top-bar{
+		min-height: 180px!important;
+	}
 
 	.top-bar.expanded, .top-bar{
 		height: 70px!important;
@@ -457,20 +435,20 @@ label.inline{
 @media only screen and (max-width: 480px) {
 
 	.menu-container a i {
-		/*		margin-top: 11px;
-                font-size: 40px;*/
+/*		margin-top: 11px;
+		font-size: 40px;*/
 	}
 
 	.menu-container a{
-		/*		color: white;
-                font-size: 20px;
-                display: inline-block;
-                width: 120px;
-                height: 120px;
-                border-radius: 60px;
-                padding-top: 10px;
-                border: 4px solid white;
-        */
+/*		color: white;
+		font-size: 20px;
+		display: inline-block;
+		width: 120px;
+		height: 120px;
+		border-radius: 60px;
+		padding-top: 10px;
+		border: 4px solid white;
+*/	
 	}
 
 	ul.nav-menu{
@@ -479,7 +457,7 @@ label.inline{
 
 	.social-icons{
 		top: 141px;
-
+		
 
 	}
 
