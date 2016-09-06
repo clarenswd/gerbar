@@ -21,50 +21,80 @@
     <favorites_list name="gerardsbar" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="page-contact.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page-contact.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.346154">
-              <caret line="124" column="26" selection-start-line="124" selection-start-column="26" selection-end-line="124" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.113208">
-              <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-              <folding>
-                <element signature="e#6#270#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajax.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ajax.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.047362756">
-              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.698113">
-              <caret line="236" column="0" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="page-contact.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/page-contact.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-10.346154">
+                  <caret line="124" column="26" selection-start-line="124" selection-start-column="26" selection-end-line="124" selection-end-column="26" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/header.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-14.113208">
+                  <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+                  <folding>
+                    <element signature="e#6#270#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ajax.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ajax.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.93919796">
+                  <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../../index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-6.769231">
+                  <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/header.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-12.884615">
+                  <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+                  <folding>
+                    <element signature="e#6#270#0#PHP" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/footer.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.63845223">
+                  <caret line="199" column="58" selection-start-line="199" selection-start-column="48" selection-end-line="199" selection-end-column="58" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -78,8 +108,9 @@
         <option value="$PROJECT_DIR$/page.php" />
         <option value="$PROJECT_DIR$/template-parts/content-page.php" />
         <option value="$PROJECT_DIR$/template-parts/content.php" />
-        <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/ajax.php" />
       </list>
     </option>
@@ -90,7 +121,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="PhpServers">
-    <servers />
+    <servers>
+      <server host="gerardsbar.wpengine.com" id="cd2245b6-d6c7-4aa8-9576-0eae9996e303" name="http://gerardsbar.wpengine.com/" />
+    </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -208,7 +241,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Web Application.gerardsbar">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -221,6 +254,9 @@
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -237,6 +273,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="gerardsbar" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="http://gerardsbar.wpengine.com/" start_url="/contact">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.gerardsbar" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -253,25 +295,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1536" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13398437" sideWeight="0.4959514" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1265625" sideWeight="0.4959514" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992503" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992503" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16666667" sideWeight="0.5040486" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39945468" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -286,8 +328,26 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ajax.php</url>
+          <line>18</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ajax.php</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PhpWebAppRunConfigurationType">
+        <watch expression=" $e-&gt;getMessage()" language="PHP" />
+        <watch expression="$e" language="PHP" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/page-contact.php">
@@ -362,18 +422,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.698113">
-          <caret line="236" column="0" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page-contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.346154">
           <caret line="124" column="26" selection-start-line="124" selection-start-column="26" selection-end-line="124" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09472551">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -388,10 +448,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../wp-includes/cache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79201937">
+          <caret line="758" column="0" selection-start-line="758" selection-start-column="0" selection-end-line="758" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../wp-includes/wp-db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34340993">
+          <caret line="668" column="0" selection-start-line="668" selection-start-column="0" selection-end-line="668" selection-end-column="0" />
+          <folding>
+            <marker date="1473001220000" expanded="true" signature="55857:55891" placeholder="UPDATE `${$t... " />
+            <marker date="1473001220000" expanded="true" signature="57846:57873" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.769231">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63845223">
+          <caret line="199" column="58" selection-start-line="199" selection-start-column="48" selection-end-line="199" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.047362756">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.93919796">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
           <folding />
         </state>
       </provider>

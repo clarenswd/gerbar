@@ -190,8 +190,8 @@
 
 					var formData = "function=formOne";
 
-					formData = formData + "&First Name=" + $(".contact-fname").val();
-					formData = formData + "&Last Name=" + $(".contact-lname").val();
+					formData = formData + "&First_Name=" + $(".contact-fname").val();
+					formData = formData + "&Last_Name=" + $(".contact-lname").val();
 					formData = formData + "&Email=" + $(".contact-email").val();
 					formData = formData + "&Enquiry=" + $(".contact-enquiry").val();
 
