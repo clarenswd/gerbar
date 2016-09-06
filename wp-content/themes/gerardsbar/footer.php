@@ -203,11 +203,11 @@
 					if($('#reservation').is(":checked")){
 						//Reservation Details
 						formData = formData + "&reservation=true";
-						formData = formData + "&Contact Number=" + $(".reservations-phone").val();
-						formData = formData + "&Number of Guests=" + $(".reservations-guests").val();
-						formData = formData + "&Reservation Date=" + $(".date-selector span").text();
-						formData = formData + "&Reservation Time=" + $(".time-selector span").text();
-						formData = formData + "&Reservation Requests=" + $(".reservations-requests").val();
+						formData = formData + "&Contact_Number=" + $(".reservations-phone").val();
+						formData = formData + "&Number_of_Guests=" + $(".reservations-guests").val();
+						formData = formData + "&Reservation_Date=" + $(".date-selector span").text();
+						formData = formData + "&Reservation_Time=" + $(".time-selector span").text();
+						formData = formData + "&Reservation_Requests=" + $(".reservations-requests").val();
 					}
 
 

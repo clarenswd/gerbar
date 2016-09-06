@@ -49,9 +49,27 @@
           <file leaf-file-name="ajax.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ajax.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.93919796">
-                  <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-                  <folding />
+                <state vertical-scroll-proportion="0.6300129">
+                  <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+                  <folding>
+                    <marker date="1473137194000" expanded="true" signature="891:931" placeholder="..." />
+                    <marker date="1473137194000" expanded="true" signature="913:931" placeholder="..." />
+                    <marker date="1473137194000" expanded="true" signature="1266:1290" placeholder="..." />
+                    <marker date="1473137194000" expanded="true" signature="1324:1356" placeholder="..." />
+                    <marker date="1473137194000" expanded="true" signature="1336:1356" placeholder="..." />
+                    <marker date="1473137194000" expanded="true" signature="1481:1505" placeholder="..." />
+                    <marker date="1473137194000" expanded="true" signature="1538:1570" placeholder="..." />
+                    <marker date="1473137194000" expanded="true" signature="1550:1570" placeholder="..." />
+                    <marker date="1473137194000" expanded="true" signature="1696:1720" placeholder="..." />
+                    <marker date="1473137194000" expanded="true" signature="1753:1785" placeholder="..." />
+                    <marker date="1473137194000" expanded="true" signature="1765:1785" placeholder="..." />
+                    <marker date="1473137194000" expanded="true" signature="1914:1938" placeholder="..." />
+                    <marker date="1473137194000" expanded="true" signature="1971:2003" placeholder="..." />
+                    <marker date="1473137194000" expanded="true" signature="1983:2003" placeholder="..." />
+                    <marker date="1473137194000" expanded="true" signature="2125:2149" placeholder="..." />
+                    <marker date="1473137194000" expanded="true" signature="2189:2221" placeholder="..." />
+                    <marker date="1473137194000" expanded="true" signature="2201:2221" placeholder="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -85,8 +103,8 @@
           <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/footer.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.63845223">
-                  <caret line="199" column="58" selection-start-line="199" selection-start-column="48" selection-end-line="199" selection-end-column="58" />
+                <state vertical-scroll-proportion="0.5586457">
+                  <caret line="200" column="21" selection-start-line="200" selection-start-column="21" selection-end-line="200" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -329,18 +347,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/ajax.php</url>
-          <line>18</line>
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/ajax.php</url>
-          <line>7</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PhpWebAppRunConfigurationType">
@@ -477,17 +484,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63845223">
-          <caret line="199" column="58" selection-start-line="199" selection-start-column="48" selection-end-line="199" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.5586457">
+          <caret line="200" column="21" selection-start-line="200" selection-start-column="21" selection-end-line="200" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93919796">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-          <folding />
+        <state vertical-scroll-proportion="0.6300129">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+          <folding>
+            <marker date="1473137194000" expanded="true" signature="891:931" placeholder="..." />
+            <marker date="1473137194000" expanded="true" signature="913:931" placeholder="..." />
+            <marker date="1473137194000" expanded="true" signature="1266:1290" placeholder="..." />
+            <marker date="1473137194000" expanded="true" signature="1324:1356" placeholder="..." />
+            <marker date="1473137194000" expanded="true" signature="1336:1356" placeholder="..." />
+            <marker date="1473137194000" expanded="true" signature="1481:1505" placeholder="..." />
+            <marker date="1473137194000" expanded="true" signature="1538:1570" placeholder="..." />
+            <marker date="1473137194000" expanded="true" signature="1550:1570" placeholder="..." />
+            <marker date="1473137194000" expanded="true" signature="1696:1720" placeholder="..." />
+            <marker date="1473137194000" expanded="true" signature="1753:1785" placeholder="..." />
+            <marker date="1473137194000" expanded="true" signature="1765:1785" placeholder="..." />
+            <marker date="1473137194000" expanded="true" signature="1914:1938" placeholder="..." />
+            <marker date="1473137194000" expanded="true" signature="1971:2003" placeholder="..." />
+            <marker date="1473137194000" expanded="true" signature="1983:2003" placeholder="..." />
+            <marker date="1473137194000" expanded="true" signature="2125:2149" placeholder="..." />
+            <marker date="1473137194000" expanded="true" signature="2189:2221" placeholder="..." />
+            <marker date="1473137194000" expanded="true" signature="2201:2221" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
