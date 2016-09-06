@@ -212,15 +212,10 @@
 
 
 
-					$.ajax({ url: 'ajax.php',
+					$.ajax({ url: 'http://gerardsbar.wpengine.com/wp-content/themes/gerardsbar/ajax.php',
 						data: formData,
 						type: 'get',
 						complete: function(output) {
-							// console.log("done");
-							// console.log(output.responseText);
-							// $('#formOneResults').html(output.responseText);
-							// $("#input01, #input02, #input03, #input04").val("");
-							// $("#formOne").slideDown();
 							$(".form").parent().text("Your message has been successfully sent. We will contact you very soon!");
 							$(".form").hide();
 						}
