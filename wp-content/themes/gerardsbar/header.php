@@ -35,7 +35,6 @@
 
 
 
-<?php wp_head(); ?>
 
 
 
@@ -49,8 +48,21 @@
 	?>
 
 
+	<?php
+	if (get_page_template_slug( $post->ID )  == 'page-contact.php' ):
+		?>
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri ();?>/css/foundation_calendar.css">
+		<?php
+	endif;
+	?>
 
 
+
+	<?php
+	//style.css is loaded in the following line
+	?>
+	?>
+	<?php wp_head(); ?>
 
 </head>
 

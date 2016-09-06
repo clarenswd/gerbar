@@ -5,7 +5,7 @@
 *.bak
 *.swp
 Thumbs.db
-
+.idea/
 # wordpress specific
 wp-config.php
 wp-content/uploads/
